@@ -1,0 +1,42 @@
+<h3>{{ word.word }}</h3>
+<p>{{ word.definition }}</p>
+<p>{{ word.frequency }}</p>
+<p>{{ word.mastered }}</p>
+
+<div>
+  <h3>Create Word</h3>
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <label for="word">Word:</label>
+      <input id="word" name="word" [(ngModel)]="word.word" required />
+    </div>
+    <div>
+      <label for="definition">Definition:</label>
+      <input
+        id="definition"
+        name="definition"
+        [(ngModel)]="word.definition"
+        required
+      />
+    </div>
+    <div>
+      <label for="frequency">Frequency:</label>
+      <input
+        id="frequency"
+        name="frequency"
+        [(ngModel)]="word.frequency"
+        required
+      />
+    </div>
+    <div>
+      <label for="mastered">Mastered:</label>
+      <input
+        id="mastered"
+        name="mastered"
+        [(ngModel)]="word.mastered"
+        required
+      />
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
