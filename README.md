@@ -11,7 +11,7 @@ localhost:4200/about
 localhost:4200/contact
 
 ### Wrong path
-localhost:8080/contacts redirect to localhost:8080/home
+localhost:4200/homedd redirect to localhost:4200/home
 
 ## BackEnd
 replace correct passwords and databse, in my case:
