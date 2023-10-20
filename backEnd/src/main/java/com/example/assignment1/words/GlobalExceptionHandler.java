@@ -10,7 +10,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<String> handleNotFound(Exception ex) {
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Not dwefwes");
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Bad Request");
     }
 }
 
