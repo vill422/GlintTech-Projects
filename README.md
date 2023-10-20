@@ -32,7 +32,7 @@ POST/words
 
 PUT/words/{id}
 
-DELET/words/{id}
+DELETE/words/{id}
 ```
 # words
 This is a newborn template about angular and spring boot applications.
