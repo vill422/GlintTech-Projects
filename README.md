@@ -22,7 +22,11 @@ GET/words
 
 GET/words/{id}
 
-GET/words/search
+GET/words/search?word=&frequency=&mastered=
+eg:
+localhost:8080/words/search?word=affront
+localhost:8080/words/search?frequency=1
+localhost:8080/words/search?word=affront&frequency=1
 
 POST/words
 
