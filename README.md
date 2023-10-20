@@ -2,6 +2,7 @@
 ## Create an angular app
 Create 3 components(home,about,contact,header,footer)
 Create navigation for 3 pages from header component
+### My Angular Components in the header
 ```js
 <nav>
   <ul>
@@ -14,6 +15,8 @@ Create navigation for 3 pages from header component
 
 ## Create and spring boot app
 Create 4 rest api for curd operations(create ,read, update ,delete)
+### My test paths
+use JSON format to post or update dates
 ```text
 GET/words
 
