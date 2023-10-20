@@ -1,5 +1,5 @@
 # words
-This is a newborn temp about angular and spring boot applications.
+This is a newborn template about angular and spring boot applications.
 
 # Test cases
 ## FrontEnd
