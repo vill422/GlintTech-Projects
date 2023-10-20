@@ -5,7 +5,9 @@ This is a newborn temp about angular and spring boot applications.
 ## FrontEnd
 ### Correct paths
 localhost:8080/home
+
 localhost:8080/about
+
 localhost:8080/contact
 
 ### Wrong path
@@ -13,8 +15,11 @@ localhost:8080/contacts redirect to localhost:8080/home
 
 ## BackEnd
 replace correct passwords and databse, in my case:
+
 spring.datasource.url=jdbc:mysql://localhost:3306/glintAssignment1
+
 spring.datasource.username=root
+
 spring.datasource.password=mysql
 
 ### SQL
