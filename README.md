@@ -1,5 +1,41 @@
+# Assignment1
+## Create an angular app
+Create 3 components(home,about,contact,header,footer)
+Create navigation for 3 pages from header component
+```js
+<nav>
+  <ul>
+    <li><a routerLink="/home">Home</a></li>
+    <li><a routerLink="/about">About</a></li>
+    <li><a routerLink="/contact">Contact</a></li>
+  </ul>
+</nav>
+```
+
+## Create and spring boot app
+Create 4 rest api for curd operations(create ,read, update ,delete)
+```text
+GET/words
+
+GET/words/{id}
+
+GET/words/search
+
+POST/words
+
+PUT/words/{id}
+
+DELET/words/{id}
+```
 # words
 This is a newborn template about angular and spring boot applications.
+## Features will be added
+
+Connect front-end to back-end
+
+Handle wrong inputs
+
+Handle user authentication
 
 # Test cases
 ## FrontEnd
