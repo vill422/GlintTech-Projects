@@ -4,11 +4,11 @@ This is a newborn template about angular and spring boot applications.
 # Test cases
 ## FrontEnd
 ### Correct paths
-localhost:8080/home
+localhost:4200/home
 
-localhost:8080/about
+localhost:4200/about
 
-localhost:8080/contact
+localhost:4200/contact
 
 ### Wrong path
 localhost:8080/contacts redirect to localhost:8080/home
