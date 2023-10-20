@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css'],
 })
 export class FooterComponent {
-  description = 'This is a footer component';
+  description = '2023 My First Angular Project';
 }
